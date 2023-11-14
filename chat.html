@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>chat</title>
+    <style> </style>
+</head>
+<body>
+    <div class="container">
+        <div class="conversation-container">
+            <div class="left-side">
+                <h2>Chats</h2>
+                <div class="tab-control">
+                    <i class="fa fa-comment active"></i>
+                    <i class="fa fa-comments"></i>
+                </div>
+                <div class="list-user-search">
+                    <input type="text" class="txt-input" placeholder="Search...">
+                </div>
+                <div class="list-user">
+                    <ul>
+                        <li>
+                            <div class="user-contain">
+                                <div class="user-img">
+                                    <img src="user-male.jpg" alt="Image of user">
+                                    <div class="user-img-dot"></div>
+                                </div>
+                                <div class="user-info">
+                                    <span class="user-name">Ricky</span>
+                                    <span class="user-last-message">Hai</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="user-contain">
+                                <div class="user-img">
+                                    <img src="user-male.jpg" alt="Image of user">
+                                    <div class="user-img-dot"></div>
+                                </div>
+                                <div class="user-info">
+                                    <span class="user-name">Kodesh</span>
+                                    <span class="user-last-message">Hai</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="user-contain">
+                                <div class="user-img">
+                                    <img src="user-male.jpg" alt="Image of user">
+                                    <div class="user-img-dot online"></div>
+                                </div>
+                                <div class="user-info">
+                                    <span class="user-name">Vijay</span>
+                                    <span class="user-last-message">Hello!</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="user-contain">
+                                <div class="user-img">
+                                    <img src="user-male.jpg" alt="Image of user">
+                                    <div class="user-img-dot"></div>
+                                </div>
+                                <div class="user-info">
+                                    <span class="user-name">Sam</span>
+                                    <span class="user-last-message">Hello!</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="user-contain">
+                                <div class="user-img">
+                                    <img src="user-male.jpg" alt="Image of user">
+                                    <div class="user-img-dot online"></div>
+                                </div>
+                                <div class="user-info">
+                                    <span class="user-name">Naveen</span>
+                                    <span class="user-last-message">Hello!</span>
+                                </div>
+                            </div>
+                        </li>
+                      
+                    </ul>
+                </div>
+            </div>
+            <div class="right-side active">
+                <div class="user-contact">
+                    <div class="back">
+                        <i class="fa fa-arrow-left"></i>
+                    </div>
+                    <div class="user-contain">
+                        <div class="user-img">
+                            <img src="user-male.jpg" alt="Image of user">
+                            <div class="user-img-dot"></div>
+                        </div>
+                        <div class="user-info">
+                            <span class="user-name">Ananth</span>
+                        </div>
+                    </div>
+                    <div class="invite-user">
+                        <span class="total-invite-user">5 paticipants</span>
+                        <span class="invite">Invite</span>
+                    </div>
+                    <div class="setting">
+                        <i class="fa fa-cog"></i>
+                    </div>
+                </div>
+                <div class="list-messages-contain">
+                    <ul class="list-messages">
+                        <li>
+                            <div class="message">
+                                <div class="message-img">
+                                    <img src="user-male.jpg" alt="">
+                                </div>
+                                <div class="message-text">Hai </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="message right">
+                                <div class="message-img">
+                                    <img src="user-male.jpg" alt="">
+                                </div>
+                                <div class="message-text">Hello!!!</div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="message">
+                                <div class="message-img">
+                                    <img src="user-male.jpg" alt="">
+                                </div>
+                                <div class="message-text">Hello, How are you? </div>
+                            </div>
+                        </li>
+                        
+                        <li>
+                            <div class="message right">
+                                <div class="message-img">
+                                    <img src="user-male.jpg" alt="">
+                                </div>
+                                <div class="message-text">I'm fine</div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="message">
+                                <div class="message-img">
+                                    <img src="user-male.jpg" alt="">
+                                </div>
+                                <div class="message-text">What are you doing??</div>
+                            </div>
+                        </li>
+                  
+                      
+                    </ul>
+                </div>
+                <form class="form-send-message">
+                    <ul class="list-file">
+                    </ul> 
+                    <input type="text" class="txt-input" placeholder="Type message...">
+                    <label class="btn btn-image" for="attach"><i class="fa fa-file"></i></label>
+                    <input type="file" multiple id="attach">
+                    <label class="btn btn-image" for="image"><i class="fa fa-file-image-o"></i></label>
+                    <input type="file" accept="image/*" multiple id="image">
+                    <button type="submit" class="btn btn-send"><i class="fa fa-paper-plane"></i></button>                        
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="chat.js" charset="utf-8"></script>
+</body>
+</html>
